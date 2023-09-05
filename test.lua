@@ -63,7 +63,7 @@ if game.PlaceId == 12334109280 then
             })
         end)
 
-        GUT5:NewButton("Fly", "fly", function()
+        GUT5:NewButton("Fly T3ST", "fly", function()
             loadstring(game:HttpGet('https://pastebin.com/raw/2J4GfniA'))()
             game.StarterGui:SetCore("SendNotification", {
             Title = "FLY!"; -- the title (ofc)
