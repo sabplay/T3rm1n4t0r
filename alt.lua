@@ -31,5 +31,20 @@ if game.PlaceId == 12562525439 then
         end)
     T3ST:NewButton("Fly T3ST", "fly", function()
         loadstring(game:HttpGet('https://pastebin.com/raw/2J4GfniA'))()
+        game.StarterGui:SetCore("SendNotification", {
+            Title = "FLY!"; -- the title (ofc)
+            Text = "T3rmin4tor, - Exploiting at it's finest"; -- what the text says (ofc)
+            Icon = "rbxassetid://14682870738"; -- the image if u want. 
+            Duration = 5; -- how long the notification should in secounds
+            })
+    end)
+    T3ST:NewButton("D4RK D3X", "D4RK D3X", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua'))()
+        game.StarterGui:SetCore("SendNotification", {
+            Title = "CH4NG3 TH3 G4ME!"; -- the title (ofc)
+            Text = "T3rmin4tor, - Exploiting at it's finest"; -- what the text says (ofc)
+            Icon = "rbxassetid://14682870738"; -- the image if u want. 
+            Duration = 5; -- how long the notification should in secounds
+            })
     end)
 end
