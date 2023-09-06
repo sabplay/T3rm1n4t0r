@@ -1,6 +1,7 @@
 local gameLinks = {
     [286090429] = 'https://raw.githubusercontent.com/sabplay/T3rm1n4t0r/main/arsenal.lua',
     [12334109280] = "https://raw.githubusercontent.com/sabplay/T3rm1n4t0r/main/gandbp.lua",
+    [12562525439] = "https://raw.githubusercontent.com/sabplay/T3rm1n4t0r/main/test.lua",
 }
 
 if gameLinks[game.PlaceId] ~= nil then
