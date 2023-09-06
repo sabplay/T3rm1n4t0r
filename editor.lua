@@ -18,7 +18,7 @@ end)
 Section:NewSlider("SP33D SL1D3R", "Yo", 500, 0, function(speed)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = speed
 end)
-Section:NewButton("Infinite yield", "alot of better", function()
+Section:NewButton("1NF1N1T3 Y31LD", "alot of better", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 Section:NewKeybind("UI (U)", "makes the gui invisible, press again to make it visible", Enum.KeyCode.U, function()
