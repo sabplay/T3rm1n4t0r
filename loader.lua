@@ -7,5 +7,10 @@ local gameLinks = {
 if gameLinks[game.PlaceId] ~= nil then
     loadstring(game:HttpGet(gameLinks[game.PlaceId]))()
 else
-    warn("MultiScript is not supported in this game ")
+         game.StarterGui:SetCore("SendNotification", {
+            Title = "N0T SUPP0RT3D!"; -- the title (ofc)
+            Text = "T3rmin4tor, - Exploiting at it's finest"; -- what the text says (ofc)
+            Icon = "rbxassetid://14682870738"; -- the image if u want. 
+            Duration = 5; -- how long the notification should in secounds
+            })
 end
