@@ -14,7 +14,7 @@ T3ST:NewButton("T3ST", "T3ST", function()
         })
     end)
 T3ST:NewButton("Fly T3ST", "fly", function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/2J4GfniA'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/sabplay/T3rm1n4t0r/main/fly.lua'))()
     game.StarterGui:SetCore("SendNotification", {
         Title = "FLY!"; -- the title (ofc)
         Text = "T3rmin4tor, - Exploiting at it's finest"; -- what the text says (ofc)
