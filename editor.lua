@@ -1,5 +1,5 @@
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-    local Window = Library.CreateLib("T3rmin4t0r H4x SP33D", "Midnight")
+    local Window = Library.CreateLib("T3rmin4t0r H4x 3D1T0R", "Midnight")
 --[[
     LightTheme
     DarkTheme
@@ -21,12 +21,12 @@ end)
 Section:NewTextBox("JUMP P0W3R", "", function(txt)
     local JUMP = txt
 ------------------------------------Main------------------------------------
-plr.Character.Humanoid.JumpPower = JUMP -- Change the jump power number.
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = JUMP -- Change the jump power number.
 end)
-Section:NewSlider("JUMP SL1D3R", "Yo", 500, 0, function(jump)
-    local JUMP = jump
+Section:NewSlider("JUMP SL1D3R", "Yo", 500, 0, function(slide)
+    local JUMP = slide
 ------------------------------------Main------------------------------------
-plr.Character.Humanoid.JumpPower = JUMP -- Change the jump power number.
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = JUMP -- Change the jump power number.
 end)
 
 Section:NewButton("1NF1N1T3 Y31LD", "alot of better", function()
