@@ -18,6 +18,12 @@ end)
 Section:NewSlider("SP33D SL1D3R", "Yo", 500, 0, function(speed)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = speed
 end)
+Section:NewTextBox("JUMP P0W3R", "", function(txt)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = txt
+end)
+Section:NewSlider("JUMP SL1D3R", "Yo", 500, 0, function(jump)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = jump
+end)
 Section:NewButton("1NF1N1T3 Y31LD", "alot of better", function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
