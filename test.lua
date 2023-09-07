@@ -35,6 +35,6 @@ T3ST:NewButton("L0CAL 3D1T0R T3ST", "", function() -- 500 (MaxValue) | 0 (MinVal
         })
 loadstring(game:HttpGet("https://raw.githubusercontent.com/sabplay/T3rm1n4t0r/main/editor.lua"))()
 end)
-T3ST:NewButton("BH0P", "BH0P", function()
+T3ST:NewButton("BH0P (GLITCHY)", "BH0P", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/sabplay/T3rm1n4t0r/main/Bhop.lua'))()
  end)
