@@ -136,8 +136,8 @@ Sh00t3r:NewButton("4iml0ck+4imb0t", "s4fe", function()
     other:CreateButton("Rejoin", function()
         game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer) end)
         
-    local setting = Window:NewTab("S3TT1NGS")
-   local settings = setting:NewSection("S3TT1NGS")
+local setting = Window:NewTab("S3TT1NGS")
+local settings = setting:NewSection("S3TT1NGS")
    
    settings:CreateLabel("M4D3 BY sabplay#7343")
    settings:CreateLabel("THIS IS THE ONLY OFFICIAL VERSION OF THIS HACK")

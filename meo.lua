@@ -152,7 +152,7 @@ T3ST:NewButton("BH0P", "BH0P", function()
      other:NewKeybind("UI (Y)", "makes the gui invisible, press again to make it visible", Enum.KeyCode.Y, function()
         Library:ToggleUI()
     end)
- local setting = Window:NewTab("S3TT1NGS")
+local setting = Window:NewTab("S3TT1NGS")
 local settings = setting:NewSection("S3TT1NGS")
 
 settings:CreateLabel("M4D3 BY sabplay#7343")

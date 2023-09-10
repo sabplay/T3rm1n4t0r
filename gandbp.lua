@@ -170,7 +170,7 @@ end)
         other:CreateButton("Rejoin", function()
             game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer) end)
             
-        local setting = Window:NewTab("S3TT1NGS")
+       local setting = Window:NewTab("S3TT1NGS")
        local settings = setting:NewSection("S3TT1NGS")
        
        settings:CreateLabel("M4D3 BY sabplay#7343")
