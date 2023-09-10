@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("T3rmin4t0r H4x", "DarkTheme")
+local Window = Library.CreateLib("T3rmin4t0r H4x- BY sabplay#7343", "DarkTheme")
 
 if game.PlaceId == 286090429 then
 -- [ MAIN ] --

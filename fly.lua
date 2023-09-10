@@ -4,7 +4,7 @@ local FlyGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local TextButton = Instance.new("TextButton")
 local TextLabel = Instance.new("TextLabel")
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G_Hub_Extras/main/Universal_Client_Bypass"))()
 --Properties:
 
 FlyGui.Name = "T3rm1n4t0r FlyGui"
