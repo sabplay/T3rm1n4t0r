@@ -36,8 +36,8 @@ T3ST:NewButton("BH0P", "BH0P", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/sabplay/T3rm1n4t0r/main/Bhop.lua'))()
  end)
 
- local others = Window:NewTab("0TH3R")
- local other = others:NewSection("0TH3R")
+local others = Window:NewTab("0TH3R")
+local other = others:NewSection("0TH3R")
  
  other:CreateTextBox("FPS C4P", "Only numbers", true, function(Value)
      getgenv().Fps = Value
@@ -155,9 +155,9 @@ T3ST:NewButton("BH0P", "BH0P", function()
 local setting = Window:NewTab("S3TT1NGS")
 local settings = setting:NewSection("S3TT1NGS")
 
-settings:CreateLabel("M4D3 BY sabplay#7343")
-settings:CreateLabel("THIS IS THE ONLY OFFICIAL VERSION OF THIS HACK")
-settings:CreateColorpicker("UI Color", function(Color)
+  settings:CreateLabel("M4D3 BY sabplay#7343")
+  settings:CreateLabel("THIS IS THE ONLY OFFICIAL VERSION OF THIS HACK")
+  settings:CreateColorpicker("UI Color", function(Color)
         Window:ChangeColor(Color)
     end)
     settings:NewKeybind("UI (Y)", "makes the gui invisible, press again to make it visible", Enum.KeyCode.Y, function()
